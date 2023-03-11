@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: inherit;
+  font-family: 'Roboto', sans-serif;
+  background-color: #2E4F4F;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100dvh;
+}
+
+.todo-wrapper {
+  max-width: 800px;
+  height: 100%;
+  /* border: 1px solid orange; */
+}
+
+.todo-wrapper h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #1f1f1f;
+  margin-bottom: 1rem;
+}
+
+.todo-container {
+  /* background: #0E8388; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container input {
+  border: none;
+  outline: none;
+  overflow: hidden;
+  padding: 6px 8px;
+  font-family: 'Roboto', sans-serif;
+  color: #2E4F4F;
+  opacity: .8;
+  width: 80%;
+  text-transform: capitalize;
+
+}
+
+.add-task {
+  width: 34px;
+  margin-right: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.task-list {
+  /* background: #0E8388; */
+  /* background: rgba(255, 255, 255, 0.3); */
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1rem;
+  margin: 1rem;
+  padding: 4px;
+
+}
+
+.todoTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: #0E8388;
+  margin-bottom: 1rem;
+  padding: 4px;
+}
+
+.todoTask li {
+  list-style: none;
+  font-size: 1rem;
+  margin-left: 4px;
+}
+
+.todoTask img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.clear-list {
+  padding: 4px 8px;
+  background: lightcoral;
+  border: none;
+  position: fixed;
+  cursor: pointer;
+  bottom: 1rem;
+}
